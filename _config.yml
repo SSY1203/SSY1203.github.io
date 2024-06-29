@@ -6,3 +6,8 @@ url: https://SSY1203.github.io
 
 aux_links:
   SSY1203 Github: https://github.com/SSY1203
+
+plugins:
+  - jekyll-default-layout
+
+color_scheme: dark
