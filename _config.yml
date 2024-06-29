@@ -1,8 +1,8 @@
 title: Fresh Young
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: Just the Docs 테마를 커스텀한 블로그
 theme: just-the-docs
 
 url: https://SSY1203.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  SSY1203 Github: https://github.com/SSY1203
