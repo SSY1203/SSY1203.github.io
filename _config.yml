@@ -10,4 +10,4 @@ aux_links:
 plugins:
   - jekyll-default-layout
 
-color_scheme: dark
+color_scheme: light
