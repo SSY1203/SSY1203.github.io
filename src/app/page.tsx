@@ -13,7 +13,7 @@ export default async function Home() {
               <h1 className="text-4xl sm:text-5xl font-bold text-neutral-900 mb-6">
                 안녕하세요, 개발자
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  정찬영
+                  신선영
                 </span>
                 입니다
               </h1>
@@ -48,11 +48,16 @@ export default async function Home() {
                     <div className="flex items-center text-sm text-neutral-500 mb-3">
                       <span>{post.frontmatter.category}</span>
                       <span className="mx-2">·</span>
-                      <time>{new Date(post.frontmatter.date).toLocaleDateString('ko-KR', {
-                        year: 'numeric',
-                        month: '2-digit',
-                        day: '2-digit'
-                      }).replace(/\. /g, '.').replace(/\.$/, '')}</time>
+                      <time>
+                        {new Date(post.frontmatter.date)
+                          .toLocaleDateString("ko-KR", {
+                            year: "numeric",
+                            month: "2-digit",
+                            day: "2-digit",
+                          })
+                          .replace(/\. /g, ".")
+                          .replace(/\.$/, "")}
+                      </time>
                     </div>
                     <h3 className="text-lg font-semibold text-neutral-900 mb-2 line-clamp-2">
                       {post.frontmatter.title}
